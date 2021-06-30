@@ -1,0 +1,78 @@
+﻿<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demos.DettaglioView">
+
+
+    <ContentPage Title="Descrizione" 
+                 IconImageSource="descrizione.png">
+        <ScrollView>
+            <Grid  BackgroundColor="white" IsClippedToBounds="True" Margin=" 1, 1, 1, 1"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+                <Grid.ColumnDefinitions >
+                    <ColumnDefinition Width="10*"></ColumnDefinition>
+                    <ColumnDefinition Width="80*"></ColumnDefinition>
+                    <ColumnDefinition Width="10*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80*" x:Name="rowImage2"/>
+                    <RowDefinition Height="20*" x:Name="rowImage1"   />
+                </Grid.RowDefinitions>
+                <StackLayout  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3"   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <Label Padding="0, 0, 0, 0" BindingContext="{Binding Programma}"  Text="{Binding Descrizione}" FontAttributes="Bold" TextColor="Black"  HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                </StackLayout>
+                <ScrollView  Grid.Row="0" Grid.Column="1"  HorizontalOptions="CenterAndExpand" Orientation="Horizontal" VerticalOptions="StartAndExpand" >
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" >
+                        <Image x:Name="image1" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" Scale="1.0" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image2" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image3" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image4" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image5" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image6" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image7" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image8" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image9" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image11" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image12" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image13" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image14" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image15" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image16" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image17" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image18" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image19" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image20" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image21" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image22" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image23" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image24" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image25" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image26" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image27" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image28" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image29" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image30" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image31" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                        <Image x:Name="image32" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="AspectFit" ></Image>
+                    </StackLayout>
+                </ScrollView>
+
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Codice"
+                 IconImageSource="codice.png ">
+        <StackLayout Margin="0,0,0,5"  BackgroundColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Label IsVisible="{Binding LinkNonPresente}" Padding="0, 0, 0, 0"  FontAttributes="Bold" TextColor="Black"  HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Text="Nessun link disponibile!"></Label>
+            <WebView IsVisible="{Binding LinkPresente}" BindingContext="{Binding Programma}"  Source="{Binding Link}"  VerticalOptions="FillAndExpand"  ></WebView>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Avviare"
+                 IconImageSource="razzo2.png">
+        <StackLayout BackgroundColor="white" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <StackLayout Margin="1,1,1,1" BackgroundColor="black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <Button Clicked="OnButtonClicked" BackgroundColor="Black" TextColor="White" BorderColor="White" BorderWidth="5"  Text="Prova il programma!" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" IsVisible="{Binding Launch}"/>
+            </StackLayout>
+            <Label IsVisible="{Binding Notlaunch}" Padding="0, 0, 0, 0"  FontAttributes="Bold" TextColor="Black"  HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Text="Programma non disponibile in UWP!"/>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>
